@@ -1,3 +1,3 @@
 with open("pi_digits.txt") as f:
-    content = f.read()
+    content = f.readline()
     print(content)
